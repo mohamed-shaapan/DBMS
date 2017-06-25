@@ -1,0 +1,9 @@
+<!ELEMENT parent (customers*)>
+<!ELEMENT customers (Name,Email,Phone)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+
+<!ATTLIST Name type CDATA "String">
+<!ATTLIST Email type CDATA "String">
+<!ATTLIST Phone type CDATA "Integer">
